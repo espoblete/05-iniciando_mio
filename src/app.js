@@ -14,6 +14,7 @@ startConnection()
 app.use (express.json())
 
 
+
 //ruta endpoint por defecto
 app.get ('/', function (req, res){
     res.send ('"hola, hola');
